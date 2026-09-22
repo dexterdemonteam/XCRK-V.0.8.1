@@ -355,7 +355,7 @@ Pull request & issue terbuka. Tapi ingat:
 
 📜 License
 
-MIT License © 2025 Yongky — Dexter Demon Team
+MIT License © 2026 Yongky — Dexter Demon Team
 
 Bebas pakai, edit, distribusi, dengan syarat tetap menyertakan credit.
 
