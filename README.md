@@ -1,6 +1,8 @@
+
 # 🩸 XCRK — Hash Cracking Toolkit
 
 ```
+
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣦⣤⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⣿⣿⣿⣿⣶⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣴⣶⣿⣦⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⣠⣄⠀⠀⠀⠀⠀⠀⠀⠀⠹⢿⣿⣿⣿⣿⣿⣷⣤⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⣾⣿⣿⣿⡿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -31,9 +33,10 @@
 ⠀⠀⠀⠀⠀⠀⠀⠀⢠⣴⣾⣿⣿⡿⠟⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠉⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠻⣿⣿⣿⣿⣧⣤⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⢀⣴⣿⣿⣿⡿⠏⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠿⣿⣿⣿⣶⡀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠾⠿⠿⠟⠡⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⠿⣿⠗⠀⠀⠀⠀⠀
+
 ```
 
-**XCRK** — Hash Cracking Toolkit berbasis C++ dengan CLI modern.
+**XCRK** adalah tools hash cracking berbasis C++ dengan CLI modern.
 Dibuat untuk edukasi keamanan siber, CTF, dan authorized penetration testing.
 
 ![Version](https://img.shields.io/badge/version-0.8.1-red)
@@ -47,16 +50,14 @@ Dibuat untuk edukasi keamanan siber, CTF, dan authorized penetration testing.
 
 | # | Fitur | Deskripsi |
 |---|---|---|
-| 1 | **Brute Force** | Coba semua kombinasi charset (a-z, alnum, custom) |
-| 2 | **Dataset Cracking** | Crack pakai wordlist (`words.txt`, `rockyou.txt`, dll) |
-| 3 | **Rule-Based** | Mutasi kata: leet, kapital, digit, suffix, reverse |
-| 4 | **Hash AI Chatbot** | AI offline yang analisa hash dari `dataset.json` |
+| 1 | Brute Force | Coba semua kombinasi charset (a-z, alnum, custom) |
+| 2 | Dataset Cracking | Crack pakai wordlist (`words.txt`, `rockyou.txt`, dll) |
+| 3 | Rule-Based | Mutasi kata: leet, kapital, digit, suffix, reverse |
+| 4 | Hash AI Chatbot | AI offline yang analisa hash dari `dataset.json` |
 
-**Algoritma didukung:** MD5 · SHA1 · SHA256
-
-**Auto-detect:** panjang hash otomatis dikenali (32/40/64 hex)
-
-**Multithreading:** pakai semua core CPU secara otomatis
+Algoritma didukung: MD5 · SHA1 · SHA256
+Auto-detect: panjang hash otomatis dikenali (32/40/64 hex)
+Multithreading: pakai semua core CPU secara otomatis
 
 ---
 
@@ -67,8 +68,8 @@ Dibuat untuk edukasi keamanan siber, CTF, dan authorized penetration testing.
 ```bash
 pkg update && pkg upgrade
 pkg install clang openssl git
-git clone https://github.com/USERNAME/xcrk.git
-cd xcrk
+git clone https://github.com/dexterdemonteam/XCRK-V.0.8.1.git
+cd XCRK-V.0.8.1
 clang++ -O3 -std=c++17 -o xcrk \
   xcrk.cpp banner.cpp menu.cpp \
   dataset-cracking.cpp rule-base.cpp \
@@ -78,12 +79,12 @@ cp xcrk $PREFIX/bin/
 chmod +x $PREFIX/bin/xcrk
 ```
 
-### Linux (Debian/Ubuntu/Kali)
+Linux (Debian/Ubuntu/Kali)
 
 ```bash
 sudo apt install g++ libssl-dev git
-git clone https://github.com/USERNAME/xcrk.git
-cd xcrk
+git clone https://github.com/dexterdemonteam/XCRK-V.0.8.1.git
+cd XCRK-V.0.8.1
 g++ -O3 -std=c++17 -o xcrk \
   xcrk.cpp banner.cpp menu.cpp \
   dataset-cracking.cpp rule-base.cpp \
@@ -92,7 +93,7 @@ g++ -O3 -std=c++17 -o xcrk \
 sudo cp xcrk /usr/local/bin/
 ```
 
-### Windows (MSYS2)
+Windows (MSYS2)
 
 ```bash
 pacman -S mingw-w64-x86_64-gcc mingw-w64-x86_64-openssl
@@ -101,15 +102,9 @@ g++ -O3 -std=c++17 -o xcrk.exe xcrk.cpp banner.cpp menu.cpp dataset-cracking.cpp
 
 ---
 
-## 🎮 Cara Pakai
+🎮 Cara Pakai
 
-Jalankan:
-
-```bash
-xcrk
-```
-
-Setujui disclaimer (`y`), lalu pilih menu:
+Jalankan xcrk, setujui disclaimer (y), lalu pilih menu:
 
 ```
 menu
@@ -123,7 +118,7 @@ menu
     [0] exit
 ```
 
-### Contoh 1 — Dataset Cracking
+Contoh — Dataset Cracking
 
 ```
 pilih › 2
@@ -150,7 +145,7 @@ attempts  8
 time      0.001s
 ```
 
-### Contoh 2 — Rule-Based
+Contoh — Rule-Based
 
 ```
 pilih › 3
@@ -166,12 +161,12 @@ loaded › 1.469 words
 
 Rule-based akan otomatis nyoba:
 
-- `letmein`, `Letmein`, `LETMEIN`
-- `letmein1`, `letmein2`, ... `letmein9`
-- `letmein!`, `letmein@`, `letmein123`, `letmein2024`
-- `l3tm31n`, `L3tm31n`
+· letmein, Letmein, LETMEIN
+· letmein1 ... letmein9
+· letmein!, letmein@, letmein123, letmein2024
+· l3tm31n, L3tm31n
 
-### Contoh 3 — Hash AI Chatbot
+Contoh — Hash AI Chatbot
 
 ```
 pilih › 6
@@ -189,38 +184,24 @@ pilih › 6
   password admin
   kategori umum
   tipe     huruf
-
-  ai › tips
-
-  tips dari AI:
-    › hash MD5 32 hex, SHA1 40 hex, SHA256 64 hex
-    › kalau gak nemu, tambahin kata ke words.txt
-    › rule-based lebih cepat dari brute force
-    › rainbow table buat hash tanpa salt
-    › password kuat = gak akan ketemu
-
-  ai › exit
-
-  bye.
 ```
 
 Command AI:
 
-| Command | Fungsi |
-|---|---|
-| `<hash>` | Analisa hash (cari di dataset + kasih saran) |
-| `help` | Bantuan |
-| `tips` | Tips dari dataset |
-| `dataset` | Info dataset |
-| `clear` | Bersihin layar |
-| `exit` | Keluar |
+Command Fungsi
+<hash> Analisa hash (cari di dataset + kasih saran)
+help Bantuan
+tips Tips dari dataset
+dataset Info dataset
+clear Bersihin layar
+exit Keluar
 
 ---
 
-## 📂 Struktur Project
+📂 Struktur Project
 
 ```
-xcrk/
+XCRK-V.0.8.1/
 ├── xcrk.h                 # shared header
 ├── xcrk.cpp               # main + brute force
 ├── banner.cpp             # banner ASCII
@@ -237,14 +218,12 @@ xcrk/
 
 ---
 
-## 🧪 Test Cepat
+🧪 Test Cepat
 
 ```bash
-# hash MD5 dari "hello"
 echo -n "hello" | md5sum
 # 5d41402abc4b2a76b9719d911017c592
 
-# jalankan
 xcrk
 # pilih [2] dataset cracking
 # hash: 5d41402abc4b2a76b9719d911017c592
@@ -253,129 +232,118 @@ xcrk
 
 Hash umum untuk latihan:
 
-| Password | Hash MD5 |
-|---|---|
-| `hello` | `5d41402abc4b2a76b9719d911017c592` |
-| `admin` | `21232f297a57a5a743894a0e4a801fc3` |
-| `admin123` | `0192023a7bbd73250516f069df18b500` |
-| `123456` | `e10adc3949ba59abbe56e057f20f883e` |
-| `qwerty` | `d8578edf8458ce06fbc5bb76a58c5ca4` |
-| `password` | `5f4dcc3b5aa765d61d8327deb882cf99` |
+Password Hash MD5
+hello 5d41402abc4b2a76b9719d911017c592
+admin 21232f297a57a5a743894a0e4a801fc3
+admin123 0192023a7bbd73250516f069df18b500
+123456 e10adc3949ba59abbe56e057f20f883e
+qwerty d8578edf8458ce06fbc5bb76a58c5ca4
+password 5f4dcc3b5aa765d61d8327deb882cf99
 
 ---
 
-## 🧬 Arsitektur Multi-File
+🧬 Arsitektur Multi-File
 
-XCRK dipecah jadi beberapa modul biar gampang maintain:
+· xcrk.cpp — entry point + brute force core
+· banner.cpp — tampilan ASCII art + branding
+· menu.cpp — menu navigasi + info owner + channel
+· dataset-cracking.cpp — wordlist engine
+· rule-base.cpp — mutation engine
+· otak.cpp — loader dataset.json (untuk AI)
+· logika.cpp — analisa hash + klasifikasi
+· ai.cpp — interface chatbot
 
-- **`xcrk.cpp`** — entry point + brute force core
-- **`banner.cpp`** — tampilan ASCII art + branding
-- **`menu.cpp`** — menu navigasi + info owner + channel
-- **`dataset-cracking.cpp`** — wordlist engine
-- **`rule-base.cpp`** — mutation engine
-- **`otak.cpp`** — loader `dataset.json` (untuk AI)
-- **`logika.cpp`** — analisa hash + klasifikasi
-- **`ai.cpp`** — interface chatbot
-
-Semua modul terhubung lewat `xcrk.h`.
+Semua modul terhubung lewat xcrk.h.
 
 ---
 
-## ⚠️ DISCLAIMER
+⚠️ DISCLAIMER
 
-**BACA SEBELUM PAKAI**
+BACA SEBELUM PAKAI
 
-XCRK dibuat **HANYA** untuk:
+XCRK dibuat HANYA untuk:
 
-- ✅ Edukasi & pembelajaran keamanan siber
-- ✅ Capture The Flag (CTF)
-- ✅ Personal security research di sistem milik sendiri
-- ✅ Authorized penetration testing dengan izin tertulis
-- ✅ Bug bounty dalam scope yang ditentukan
+· Edukasi & pembelajaran keamanan siber
+· Capture The Flag (CTF)
+· Personal security research di sistem milik sendiri
+· Authorized penetration testing dengan izin tertulis
+· Bug bounty dalam scope yang ditentukan
 
-**DILARANG KERAS** menggunakan XCRK untuk:
+DILARANG KERAS menggunakan XCRK untuk:
 
-- ❌ Menyerang sistem, jaringan, atau akun tanpa izin
-- ❌ Crack password/hash tanpa otorisasi
-- ❌ Aktivitas ilegal / melanggar hukum (UU ITE, CFAA, dll)
-- ❌ Merugikan pihak lain
-- ❌ Distribusi sebagai bagian dari malware
+· Menyerang sistem, jaringan, atau akun tanpa izin
+· Crack password/hash tanpa otorisasi
+· Aktivitas ilegal / melanggar hukum (UU ITE, CFAA, dll)
+· Merugikan pihak lain
+· Distribusi sebagai bagian dari malware
 
----
+🚫 Dexter Demon Team TIDAK BERTANGGUNG JAWAB
 
-### 🚫 Dexter Demon Team TIDAK BERTANGGUNG JAWAB
+Dexter Demon Team dan Yongky (owner) secara tegas menyatakan:
 
-**Dexter Demon Team dan Yongky (owner) secara tegas menyatakan:**
+TIDAK BERTANGGUNG JAWAB atas segala bentuk penyalahgunaan tools XCRK,
+termasuk namun tidak terbatas pada:
 
-> **TIDAK BERTANGGUNG JAWAB** atas segala bentuk penyalahgunaan
-> tools XCRK, termasuk namun tidak terbatas pada:
->
-> - Kerusakan sistem, data, atau perangkat
-> - Kerugian finansial atau materiil
-> - Tuntutan hukum, denda, atau proses pidana
-> - Pelanggaran privasi atau data pribadi
-> - Pelanggaran hukum lokal, nasional, maupun internasional
-> - Segala konsekuensi langsung maupun tidak langsung
+· Kerusakan sistem, data, atau perangkat
+· Kerugian finansial atau materiil
+· Tuntutan hukum, denda, atau proses pidana
+· Pelanggaran privasi atau data pribadi
+· Pelanggaran hukum lokal, nasional, maupun internasional
+· Segala konsekuensi langsung maupun tidak langsung
 
-**Semua risiko ditanggung SEPENUHNYA oleh user.**
-**Semua tindakan adalah tanggung jawab PRIBADI user.**
-**Semua akibat hukum adalah tanggung jawab MUTLAK user.**
+Semua risiko ditanggung SEPENUHNYA oleh user.
+Semua tindakan adalah tanggung jawab PRIBADI user.
+Semua akibat hukum adalah tanggung jawab MUTLAK user.
 
-Dexter Demon Team hanya menyediakan tools untuk **tujuan edukasi**.
-Jika tools ini disalahgunakan, itu **100% di luar tanggung jawab kami**.
+Dexter Demon Team hanya menyediakan tools untuk tujuan edukasi.
+Jika tools ini disalahgunakan, itu 100% di luar tanggung jawab kami.
 
----
+⚖️ Hukum yang Berlaku
 
-### ⚖️ Hukum yang Berlaku
+Negara Undang-Undang Sanksi
+Indonesia UU ITE Pasal 30, 32, 46 6–12 tahun penjara
+USA CFAA (18 U.S.C. § 1030) Hingga 20 tahun
+UK Computer Misuse Act 1990 Hingga 10 tahun
+EU Directive 2013/40/EU Bervariasi
+Singapore Computer Misuse Act Hingga 10 tahun
+Malaysia Computer Crimes Act 1997 Hingga 10 tahun
 
-| Negara | Undang-Undang | Sanksi |
-|---|---|---|
-| 🇮🇩 Indonesia | UU ITE Pasal 30, 32, 46 | 6–12 tahun penjara |
-| 🇺🇸 USA | CFAA (18 U.S.C. § 1030) | Hingga 20 tahun |
-| 🇬🇧 UK | Computer Misuse Act 1990 | Hingga 10 tahun |
-| 🇪🇺 EU | Directive 2013/40/EU | Bervariasi |
-| 🇸🇬 Singapore | Computer Misuse Act | Hingga 10 tahun |
-| 🇲🇾 Malaysia | Computer Crimes Act 1997 | Hingga 10 tahun |
-
----
-
-### ✅ Persetujuan User
+✅ Persetujuan User
 
 Dengan menggunakan XCRK, kamu menyatakan:
 
-- [x] Sudah membaca & memahami disclaimer ini
-- [x] Akan menggunakan XCRK hanya untuk tujuan **legal & etis**
-- [x] **Bertanggung jawab penuh** atas semua tindakanmu
-- [x] **Membebaskan** Dexter Demon Team dari segala tuntutan
-- [x] Tidak akan menyalahgunakan tools ini
+· Sudah membaca & memahami disclaimer ini
+· Akan menggunakan XCRK hanya untuk tujuan legal & etis
+· Bertanggung jawab penuh atas semua tindakanmu
+· Membebaskan Dexter Demon Team dari segala tuntutan
+· Tidak akan menyalahgunakan tools ini
 
-**Jika tidak setuju → JANGAN gunakan XCRK.**
+Jika tidak setuju → JANGAN gunakan XCRK.
 
----
+🩸 Penutup
 
-### 🩸 Penutup
+Dexter Demon Team hadir untuk edukasi, bukan untuk merusak.
+Kami tidak mentoleransi penyalahgunaan dalam bentuk apapun.
+Gunakan ilmu ini dengan bijak. 🩸
 
-> Dexter Demon Team hadir untuk **edukasi**, bukan untuk merusak.
-> Kami tidak mentoleransi penyalahgunaan dalam bentuk apapun.
-> Gunakan ilmu ini dengan bijak. 🩸
-
-**— Dexter Demon Team**
+— Dexter Demon Team
 
 ---
 
-## 👤 Owner & Tim
+👤 Owner & Tim
 
-**Dexter Demon Team**
+Dexter Demon Team
 
-- 👤 Owner: **Yongky**
-- 🩸 Team: Dexter Demon Team
-- 📢 Channel: [WhatsApp Channel](https://whatsapp.com/channel/0029Vb8R7mh4tRrz7K4vBm23)
+· Owner: Yongky
+· Team: Dexter Demon Team
+· Channel: https://whatsapp.com/channel/0029Vb8R7mh4tRrz7K4vBm23
+· GitHub: https://github.com/dexterdemonteam/XCRK-V.0.8.1
 
 Update tools, fitur baru, dan info lain ada di channel.
 
 ---
 
-## 🤝 Kontribusi
+🤝 Kontribusi
 
 Pull request & issue terbuka. Tapi ingat:
 
@@ -385,18 +353,18 @@ Pull request & issue terbuka. Tapi ingat:
 
 ---
 
-## 📜 License
+📜 License
 
-MIT License © 2025 **Yongky** — Dexter Demon Team
+MIT License © 2025 Yongky — Dexter Demon Team
 
 Bebas pakai, edit, distribusi, dengan syarat tetap menyertakan credit.
 
 ---
 
-## 🩸 Credits
+🩸 Credits
 
-Dibuat dengan 🩸 oleh **Dexter Demon Team**
+Dibuat dengan 🩸 oleh Dexter Demon Team
 
-> Stay sharp. Stay ethical. Stay curious.
+Stay sharp. Stay ethical. Stay curious.
 
-🩸
+```
