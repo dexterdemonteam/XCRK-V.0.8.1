@@ -1,4 +1,5 @@
 #define OPENSSL_SUPPRESS_DEPRECATED
+
 #include "xcrk.h"
 #include <iostream>
 #include <iomanip>
@@ -62,7 +63,6 @@ void resetGlobals() {
     g_result.clear();
     g_startTime = std::chrono::steady_clock::now();
 }
-
 
 bool showDisclaimer() {
     std::cout << "  " << RED << BOLD << "DISCLAIMER" << RESET << "\n\n";
