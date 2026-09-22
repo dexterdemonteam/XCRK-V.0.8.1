@@ -1,7 +1,3 @@
-// ============================================================
-//  XCRK - V.0.8.1  ·  Menu
-//  Dexter Demon Team
-// ============================================================
 #include "xcrk.h"
 #include <iostream>
 #include <string>
@@ -21,6 +17,8 @@ static void printMenuOptions() {
               << GRAY << "mutation attack\n" << RESET;
     std::cout << GREEN << "    [4]" << RESET << " info owner\n";
     std::cout << GREEN << "    [5]" << RESET << " join channel\n";
+    std::cout << GREEN << "    [6]" << RESET << " hash ai chatbot   "
+              << GRAY << "offline ai\n" << RESET;
     std::cout << RED   << "    [0]" << RESET << " exit\n\n";
 }
 
@@ -30,6 +28,8 @@ void printOwnerInfo() {
               << GREEN << "Dexter Demon Team" << RESET << "\n";
     std::cout << "  " << GRAY << "project   " << RESET
               << GREEN << "XCRK v0.8.1" << RESET << "\n";
+    std::cout << "  " << GRAY << "owner     " << RESET
+              << GREEN << "Yongky" << RESET << "\n";
     std::cout << "  " << GRAY << "purpose   " << RESET
               << "security research & education\n";
     std::cout << "  " << GRAY << "channel   " << RESET
@@ -63,6 +63,7 @@ void showMainMenu() {
         else if (in == "3") runRuleBased();
         else if (in == "4") printOwnerInfo();
         else if (in == "5") joinChannel();
+        else if (in == "6") runAIChat();
         else if (in == "0" || in == "q" || in == "exit") {
             std::cout << "\n  " << GREEN << "bye." << RESET << "\n";
             break;
