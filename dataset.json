@@ -1,0 +1,671 @@
+{
+  "hashes": [
+    {
+      "hash": "5f4dcc3b5aa765d61d8327deb882cf99",
+      "algo": "MD5",
+      "password": "password",
+      "kategori": "umum"
+    },
+    {
+      "hash": "21232f297a57a5a743894a0e4a801fc3",
+      "algo": "MD5",
+      "password": "admin",
+      "kategori": "umum"
+    },
+    {
+      "hash": "0192023a7bbd73250516f069df18b500",
+      "algo": "MD5",
+      "password": "admin123",
+      "kategori": "umum"
+    },
+    {
+      "hash": "e10adc3949ba59abbe56e057f20f883e",
+      "algo": "MD5",
+      "password": "123456",
+      "kategori": "angka"
+    },
+    {
+      "hash": "25d55ad283aa400af464c76d713c07ad",
+      "algo": "MD5",
+      "password": "12345678",
+      "kategori": "angka"
+    },
+    {
+      "hash": "827ccb0eea8a706c4c34a16891f84e7b",
+      "algo": "MD5",
+      "password": "12345",
+      "kategori": "angka"
+    },
+    {
+      "hash": "d8578edf8458ce06fbc5bb76a58c5ca4",
+      "algo": "MD5",
+      "password": "qwerty",
+      "kategori": "keyboard"
+    },
+    {
+      "hash": "8b1a9953c4611296a827abf8c47804d7",
+      "algo": "MD5",
+      "password": "Hello",
+      "kategori": "umum"
+    },
+    {
+      "hash": "5d41402abc4b2a76b9719d911017c592",
+      "algo": "MD5",
+      "password": "hello",
+      "kategori": "umum"
+    },
+    {
+      "hash": "098f6bcd4621d373cade4e832627b4f6",
+      "algo": "MD5",
+      "password": "test",
+      "kategori": "umum"
+    },
+    {
+      "hash": "900150983cd24fb0d6963f7d28e17f72",
+      "algo": "MD5",
+      "password": "abc",
+      "kategori": "umum"
+    },
+    {
+      "hash": "0d107d09f5bbe40cade3de5c71e9e9b7",
+      "algo": "MD5",
+      "password": "letmein",
+      "kategori": "umum"
+    },
+    {
+      "hash": "c33367701511b4f6020ec61ded352059",
+      "algo": "MD5",
+      "password": "password1",
+      "kategori": "umum"
+    },
+    {
+      "hash": "f25a2fc72690b780b2a14e140ef6a9e0",
+      "algo": "MD5",
+      "password": "iloveyou",
+      "kategori": "umum"
+    },
+    {
+      "hash": "e99a18c428cb38d5f260853678922e03",
+      "algo": "MD5",
+      "password": "abc123",
+      "kategori": "umum"
+    },
+    {
+      "hash": "c4ca4238a0b923820dcc509a6f75849b",
+      "algo": "MD5",
+      "password": "1",
+      "kategori": "angka"
+    },
+    {
+      "hash": "c81e728d9d4c2f636f067f89cc14862c",
+      "algo": "MD5",
+      "password": "2",
+      "kategori": "angka"
+    },
+    {
+      "hash": "eccbc87e4b5ce2fe28308fd9f2a7baf3",
+      "algo": "MD5",
+      "password": "3",
+      "kategori": "angka"
+    },
+    {
+      "hash": "a87ff679a2f3e71d9181a67b7542122c",
+      "algo": "MD5",
+      "password": "4",
+      "kategori": "angka"
+    },
+    {
+      "hash": "e4da3b7fbbce2345d7772b0674a318d5",
+      "algo": "MD5",
+      "password": "5",
+      "kategori": "angka"
+    },
+    {
+      "hash": "1679091c5a880faf6fb5e6087eb1b2dc",
+      "algo": "MD5",
+      "password": "6",
+      "kategori": "angka"
+    },
+    {
+      "hash": "8f14e45fceea167a5a36dedd4bea2543",
+      "algo": "MD5",
+      "password": "7",
+      "kategori": "angka"
+    },
+    {
+      "hash": "c9f0f895fb98ab9159f51fd0297e236d",
+      "algo": "MD5",
+      "password": "8",
+      "kategori": "angka"
+    },
+    {
+      "hash": "45c48cce2e2d7fbdea1afc51c7c6ad26",
+      "algo": "MD5",
+      "password": "9",
+      "kategori": "angka"
+    },
+    {
+      "hash": "d3d9446802a44259755d38e6d163e820",
+      "algo": "MD5",
+      "password": "10",
+      "kategori": "angka"
+    },
+    {
+      "hash": "5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8",
+      "algo": "SHA1",
+      "password": "password",
+      "kategori": "umum"
+    },
+    {
+      "hash": "a9993e364706816aba3e25717850c26c9cd0d89d",
+      "algo": "SHA1",
+      "password": "abc",
+      "kategori": "umum"
+    },
+    {
+      "hash": "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad",
+      "algo": "SHA256",
+      "password": "abc",
+      "kategori": "umum"
+    },
+    {
+      "hash": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+      "algo": "SHA256",
+      "password": "password",
+      "kategori": "umum"
+    },
+    {
+      "hash": "7c6a180b36896a0a8c02787eeafb0e4c",
+      "algo": "MD5",
+      "password": "password1",
+      "kategori": "umum"
+    },
+    {
+      "hash": "a125a6b2a71e23adc002ac7fbe1a1042",
+      "algo": "MD5",
+      "password": "dexter",
+      "kategori": "team"
+    },
+    {
+      "hash": "74186adf7f381c816fbb8dab121a6973",
+      "algo": "MD5",
+      "password": "demon",
+      "kategori": "team"
+    },
+    {
+      "hash": "f5d8434f3dff4e40556afa9baf9b9529",
+      "algo": "MD5",
+      "password": "yongky",
+      "kategori": "owner"
+    },
+    {
+      "hash": "6615346092013f98453257308df25280",
+      "algo": "MD5",
+      "password": "xcrk",
+      "kategori": "team"
+    },
+    {
+      "hash": "417ab7420019878713e178bbe32c228e",
+      "algo": "MD5",
+      "password": "dexterdemon",
+      "kategori": "team"
+    },
+    {
+      "hash": "2ad18f899e7bdb8d863917164a776a51",
+      "algo": "MD5",
+      "password": "dexterdemonteam",
+      "kategori": "team"
+    },
+    {
+      "hash": "cda2c99fbf5e19f20d331299c15a4491",
+      "algo": "MD5",
+      "password": "indonesia",
+      "kategori": "umum"
+    },
+    {
+      "hash": "629ab14fab772d78a58eea752bdfc0dc",
+      "algo": "MD5",
+      "password": "jakarta",
+      "kategori": "umum"
+    },
+    {
+      "hash": "938b4263f09b8b1dae8f027d06681ec9",
+      "algo": "MD5",
+      "password": "bandung",
+      "kategori": "umum"
+    },
+    {
+      "hash": "5012a1cbc560d21c9ad22c555790c2b0",
+      "algo": "MD5",
+      "password": "surabaya",
+      "kategori": "umum"
+    },
+    {
+      "hash": "24d545382bf132265c7bcb71acddbae0",
+      "algo": "MD5",
+      "password": "bali",
+      "kategori": "umum"
+    },
+    {
+      "hash": "586293e168054f480d08e30fba98c295",
+      "algo": "MD5",
+      "password": "garuda",
+      "kategori": "umum"
+    },
+    {
+      "hash": "f509e5b1aa24c8222241883261555ed5",
+      "algo": "MD5",
+      "password": "merdeka",
+      "kategori": "umum"
+    },
+    {
+      "hash": "06e18401f7ccb612a3acff13e63f6d11",
+      "algo": "MD5",
+      "password": "pancasila",
+      "kategori": "umum"
+    },
+    {
+      "hash": "b65845fca59b323bd285bdcada3454c8",
+      "algo": "MD5",
+      "password": "kucing",
+      "kategori": "umum"
+    },
+    {
+      "hash": "a1fb7f01ffe3fc76e0b997be59ae212f",
+      "algo": "MD5",
+      "password": "anjing",
+      "kategori": "umum"
+    }
+  ],
+  "pola": [
+    {
+      "kata": "password",
+      "saran": "coba rule-based dengan suffix angka"
+    },
+    {
+      "kata": "admin",
+      "saran": "coba brute force charset a-z"
+    },
+    {
+      "kata": "123456",
+      "saran": "sudah umum, gampang ketemu"
+    },
+    {
+      "kata": "qwerty",
+      "saran": "keyboard pattern, coba UPPERCASE"
+    },
+    {
+      "kata": "hello",
+      "saran": "coba kapitalisasi di awal"
+    },
+    {
+      "kata": "letmein",
+      "saran": "coba tambah suffix ! atau 123"
+    },
+    {
+      "kata": "iloveyou",
+      "saran": "coba tanpa spasi + angka"
+    },
+    {
+      "kata": "abc123",
+      "saran": "pola huruf+angka, coba reverse"
+    }
+  ],
+  "tips": [
+    "hash MD5 32 hex, SHA1 40 hex, SHA256 64 hex",
+    "kalau gak nemu, tambahin kata ke words.txt",
+    "rule-based lebih cepat dari brute force",
+    "rainbow table buat hash tanpa salt",
+    "password kuat = gak akan ketemu",
+    "coba dataset dulu sebelum brute force",
+    "semakin panjang password, semakin lama crack",
+    "hash dengan salt gak bisa pakai rainbow table",
+    "gunakan GPU kalau mau crack cepat",
+    "wordlist gede = peluang lebih besar"
+  ],
+  "chat": {
+    "salam": [
+      "halo, gue xcrk-ai. mau tanya apa?",
+      "hai, ada hash yang mau dianalisa?",
+      "yo, siap bantu analisa hash. ketik aja hash-nya",
+      "hei, gue siap bantu. ketik 'help' buat lihat perintah",
+      "halo juga. gue standby kalau ada hash",
+      "woi, ada apa? hash apa yang mau dicek?",
+      "siap. ketik hash atau 'help'",
+      "halo, selamat datang di xcrk-ai",
+      "hai bro, ada yang bisa dibantu?",
+      "yo, gue standby 24/7 offline"
+    ],
+    "siapa_kamu": [
+      "gue xcrk-ai, asisten offline buatan dexter demon team",
+      "gue ai lokal yang ditanam di xcrk, tugas gue analisa hash",
+      "xcrk-ai, dibuat sama yongky dari dexter demon team",
+      "asisten hash offline, bagian dari tools xcrk",
+      "gue ai sederhana yang fokus ke hash cracking"
+    ],
+    "pembuat": [
+      "xcrk dibuat sama yongky, dari dexter demon team",
+      "tim dexter demon — owner-nya yongky",
+      "dibuat sama dexter demon team, dipimpin yongky",
+      "yongky dari dexter demon team yang bikin xcrk",
+      "dexter demon team, tim cybersecurity lokal"
+    ],
+    "cara_pakai": [
+      "ketik hash langsung, gue bakal analisa. atau ketik 'help'",
+      "input aja hash md5/sha1/sha256, gue cek di dataset",
+      "ketik 'tips' buat lihat tips, 'dataset' buat info, atau hash langsung",
+      "ketik hash → gue cek. ketik 'help' → lihat perintah",
+      "simple, ketik hash aja, gue analisa"
+    ],
+    "fitur": [
+      "gue bisa: analisa hash, cek dataset, kasih tips, klasifikasi password",
+      "fitur gue: cari hash di dataset, deteksi algo, kasih saran metode",
+      "gue bisa deteksi md5/sha1/sha256, cari di dataset, dan kasih saran",
+      "analisa hash, deteksi algo, cek dataset, kasih tips",
+      "gue fokus ke analisa hash offline"
+    ],
+    "terima_kasih": [
+      "siap, santai aja",
+      "oke, kalau ada hash lain tinggal ketik",
+      "no problem, gue standby",
+      "sip, senang bisa bantu",
+      "oke bos, lanjut kalau ada lagi",
+      "sama-sama, gue di sini kalau butuh"
+    ],
+    "bye": [
+      "bye, jangan lupa pakai buat edukasi ya",
+      "sampai jumpa, stay ethical",
+      "oke, keluar. jangan disalahgunain ya",
+      "dadah, semoga bermanfaat",
+      "bye, gue standby di dataset",
+      "sampai jumpa lagi"
+    ],
+    "unknown": [
+      "hmm, gue gak ngerti. coba ketik 'help'",
+      "input-nya kurang jelas. ketik 'help' buat lihat perintah",
+      "gue gak nangkep. ketik hash, atau 'help' buat bantuan",
+      "coba ketik 'help' biar gue ngerti",
+      "maaf, gue belum paham. ketik 'help' ya",
+      "gue masih belajar, coba ketik 'help'",
+      "belum ngerti, coba ulang"
+    ],
+    "hash_tidak_ditemukan": [
+      "hash gak ada di dataset gue. coba pakai fitur [2] atau [3]",
+      "gak ketemu di dataset. coba wordlist gede atau rule-based",
+      "hash-nya belum ada di dataset. coba crack manual pakai menu utama",
+      "belum ada di dataset. coba [3] rule-based di menu utama",
+      "gak ada di dataset, coba brute force"
+    ],
+    "pertanyaan": [
+      "gue gak punya jawaban untuk itu. coba tanya soal hash",
+      "hmm, itu di luar kemampuan gue. ketik 'help'",
+      "gue fokus ke hash. coba ketik hash atau 'help'"
+    ],
+    "assalamualaikum": [
+      "waalaikumsalam, ada yang bisa dibantu?",
+      "waalaikumsalam warahmatullah, siap bantu",
+      "waalaikumsalam. mau cek hash apa?",
+      "waalaikumsalam, gue standby",
+      "waalaikumsalam warahmatullahi wabarakatuh"
+    ],
+    "knp": [
+      "kenapa ya? coba jelasin lebih detail",
+      "kok gitu? ada masalah apa?",
+      "knp emang? kasih tau gue",
+      "ada apa? cerita aja",
+      "hmm, kenapa? gue dengerin"
+    ],
+    "aku": [
+      "aku juga siap bantu kamu",
+      "iya, aku di sini",
+      "aku xcrk-ai, siap nemenin",
+      "aku standby, tinggal ketik aja",
+      "aku bantu semaksimal mungkin"
+    ],
+    "saya": [
+      "saya siap bantu, ketik hash atau 'help'",
+      "oke saya bantu, ada hash?",
+      "saya standby di sini",
+      "saya tunggu input-nya",
+      "saya siap, tinggal ketik"
+    ],
+    "anda": [
+      "anda bisa ketik hash langsung",
+      "anda mau analisa hash apa?",
+      "anda tinggal ketik aja",
+      "anda siap pakai xcrk?",
+      "anda bisa tanya apa aja"
+    ],
+    "kamu": [
+      "kamu juga bisa tanya apa aja soal hash",
+      "kamu mau cek hash apa?",
+      "kamu tinggal ketik aja",
+      "kamu siap latihan?",
+      "kamu bisa pakai fitur apa aja"
+    ],
+    "sampean": [
+      "sampean tinggal ketik hash aja",
+      "sampean mau apa?",
+      "sampean siap pakai xcrk?",
+      "sampean standby ya",
+      "sampean bisa langsung ketik"
+    ],
+    "pagi": [
+      "selamat pagi, semangat hari ini",
+      "pagi juga, mau cek hash apa?",
+      "pagi bro, siap bantu"
+    ],
+    "siang": [
+      "selamat siang, jangan lupa makan",
+      "siang juga, ada hash?",
+      "siang bro, gue standby"
+    ],
+    "sore": [
+      "selamat sore, santai dulu",
+      "sore juga, mau ngapain?",
+      "sore bro, gue siap bantu"
+    ],
+    "malam": [
+      "selamat malam, jangan lupa tidur",
+      "malam juga, ada hash?",
+      "malam bro, gue standby"
+    ],
+    "maaf": [
+      "gak apa-apa, santai aja",
+      "gapapa bro, lanjut",
+      "oke, gak masalah",
+      "santai, gue gak marah"
+    ],
+    "tolong": [
+      "siap, gue bantu",
+      "oke, kasih tau masalahnya",
+      "boleh, ketik aja",
+      "siap bantu, apa yang bisa gue lakuin?"
+    ],
+    "bingung": [
+      "coba ketik 'help' biar jelas",
+      "bingung apa? kasih tau gue",
+      "oke, gue jelasin pelan-pelan",
+      "tenang, gue bantu"
+    ],
+    "susah": [
+      "susah itu tantangan, coba dulu",
+      "jangan nyerah, gue bantu",
+      "susah ya? coba pakai fitur lain",
+      "semua butuh proses, santai"
+    ],
+    "gampang": [
+      "iya gampang, tinggal ketik hash",
+      "gampang kan? lanjut",
+      "simpel kan, gue standby"
+    ],
+    "kangen": [
+      "kangen juga, gue standby di sini",
+      "ya, gue selalu standby",
+      "kangen? ketik aja hash"
+    ],
+    "rindu": [
+      "rindu juga, gue standby terus",
+      "ya, gue di sini",
+      "rindu ya? santai"
+    ],
+    "sayang": [
+      "sayang juga, tapi gue fokus ke hash",
+      "oke, gue sayang semua user",
+      "iya, gue siap bantu"
+    ],
+    "cinta": [
+      "cinta itu butuh proses, kayak crack hash",
+      "oke, gue cinta user gue",
+      "cinta juga, tapi balik ke hash dulu"
+    ],
+    "mantap": [
+      "mantap, lanjut cek hash",
+      "sip, mantap",
+      "oke, gue senang",
+      "keren, terus semangat"
+    ],
+    "keren": [
+      "keren, lanjut",
+      "sip, keren",
+      "oke, gue senang",
+      "thanks, terus semangat"
+    ],
+    "bagus": [
+      "bagus, lanjut cek hash",
+      "sip, bagus",
+      "oke, mantap"
+    ],
+    "jelek": [
+      "jelek? coba jelasin",
+      "kok jelek? kasih tau",
+      "hmm, gue bantu benerin"
+    ],
+    "error": [
+      "error? coba jelasin",
+      "error apa? kasih tau gue",
+      "coba cek manual, atau restart"
+    ],
+    "salah": [
+      "salah? coba ulang",
+      "dimana salahnya? kasih tau",
+      "oke, gue bantu benerin"
+    ],
+    "benar": [
+      "benar, lanjut",
+      "iya bener, gue setuju",
+      "oke, benar"
+    ],
+    "iya": [
+      "oke, lanjut",
+      "sip, gue standby",
+      "iya juga"
+    ],
+    "tidak": [
+      "oke, gak masalah",
+      "santai, lanjut aja",
+      "iya, gue ngerti"
+    ],
+    "boleh": [
+      "boleh, santai aja",
+      "oke, gue izinin",
+      "sip, silahkan"
+    ],
+    "gimana": [
+      "gimana apanya? kasih tau",
+      "gimana ya? coba ketik 'help'",
+      "gimana? jelasin dong"
+    ],
+    "apa": [
+      "apa ya? coba ketik 'help'",
+      "apa? jelasin dong",
+      "apa tu? gue dengerin"
+    ],
+    "dimana": [
+      "dimana apanya?",
+      "dimana? coba kasih tau",
+      "dimana ya, gue gak tau"
+    ],
+    "kapan": [
+      "kapan apanya?",
+      "kapan? gue gak tau",
+      "kapan ya, gak jelas"
+    ],
+    "siapa": [
+      "siapa apanya?",
+      "siapa? kasih tau",
+      "siapa ya? gue gak tau"
+    ],
+    "ngapain": [
+      "lagi santai, standby bantu user",
+      "ngapain ya? standby aja",
+      "lagi nunggu input dari kamu"
+    ],
+    "lagi_apa": [
+      "lagi standby, nunggu hash",
+      "lagi santai, siap bantu",
+      "lagi nunggu kamu ketik hash"
+    ],
+    "makan": [
+      "jangan lupa makan, gue standby",
+      "makan dulu, gue nunggu",
+      "iya, makan yang bener"
+    ],
+    "tidur": [
+      "tidur dulu, gue standby",
+      "jangan lupa istirahat",
+      "iya, tidur yang cukup"
+    ],
+    "sehat": [
+      "sehat terus, jaga kesehatan",
+      "iya, jaga kesehatan",
+      "sip, sehat selalu"
+    ],
+    "sibuk": [
+      "santai, gue standby",
+      "sibuk ya? gak apa-apa",
+      "oke, gue nunggu"
+    ],
+    "bosan": [
+      "bosan? coba crack hash",
+      "bosan ya? latihan aja",
+      "oke, coba fitur baru"
+    ],
+    "capek": [
+      "capek ya? istirahat dulu",
+      "santai, jangan dipaksa",
+      "oke, istirahat dulu"
+    ],
+    "senang": [
+      "senang juga, lanjut",
+      "oke, gue ikut senang",
+      "sip, senang denger nya"
+    ],
+    "sedih": [
+      "sedih ya? gue di sini",
+      "santai, semua ada solusinya",
+      "oke, cerita aja"
+    ],
+    "marah": [
+      "marah ya? santai dulu",
+      "oke, tarik napas",
+      "santai, gue dengerin"
+    ],
+    "takut": [
+      "jangan takut, gue bantu",
+      "santai, aman",
+      "oke, tenang"
+    ],
+    "berani": [
+      "berani itu bagus",
+      "oke, gue suka",
+      "sip, terus berani"
+    ],
+    "help": [
+      "ketik hash → gue analisa",
+      "ketik 'tips' → tips hash",
+      "ketik 'dataset' → info dataset",
+      "ketik 'exit' → keluar"
+    ]
+  }
+}

@@ -1,5 +1,4 @@
 #include "xcrk.h"
-#include <iostream>
 #include <string>
 #include <vector>
 #include <algorithm>
@@ -10,6 +9,16 @@ struct HashEntry {
     std::string algo;
     std::string password;
     std::string kategori;
+};
+
+struct Analisis {
+    std::string algo;
+    bool valid;
+    bool foundDiDataset;
+    std::string password;
+    std::string kategori;
+    std::string saran;
+    std::string tipe;
 };
 
 const std::vector<HashEntry>& otakGetHashes();
@@ -31,8 +40,8 @@ static bool isHex(const std::string& s) {
     return true;
 }
 
-bool cariDiDataset(const std::string& hash, std::string& outPassword,
-                   std::string& outAlgo, std::string& outKategori) {
+static bool cariDiDataset(const std::string& hash, std::string& outPassword,
+                          std::string& outAlgo, std::string& outKategori) {
     const auto& list = otakGetHashes();
     for (const auto& e : list) {
         if (e.hash == hash) {
@@ -45,7 +54,7 @@ bool cariDiDataset(const std::string& hash, std::string& outPassword,
     return false;
 }
 
-std::string saranMetode(const std::string& hash, const std::string& algo) {
+static std::string saranMetode(const std::string& hash, const std::string& algo) {
     size_t hl = hash.size();
     if (hl == 32 || hl == 40 || hl == 64) {
         return "coba [2] dataset dulu, kalau gak nemu pakai [3] rule-based";
@@ -55,16 +64,6 @@ std::string saranMetode(const std::string& hash, const std::string& algo) {
     }
     return "algo gak dikenali, cek hash-nya";
 }
-
-struct Analisis {
-    std::string algo;
-    bool valid;
-    bool foundDiDataset;
-    std::string password;
-    std::string kategori;
-    std::string saran;
-    std::string tipe;
-};
 
 static std::string klasifikasiPassword(const std::string& pw) {
     bool adaAngka = false, adaHuruf = false, adaSimbol = false;

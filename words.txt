@@ -4,13 +4,23 @@
 0000
 00000
 000000
+000111222
 007
 008
 009
 010
 011
 012
+01januari
+02februari
+03maret
+04april
+05mei
+06juni
+07juli
+08agustus
 0987654321
+09september
 1
 1!
 100
@@ -18,11 +28,14 @@
 101
 101010
 1029384756
+10oktober
 111
 1111
 111111
+111222333
 112233
 1122aa
+11november
 12
 12!
 121212
@@ -52,10 +65,14 @@
 123456@
 123456a
 12345@
+12345abc
 1234@
 1234abc
 123@
 12ab12
+12ab34cd
+12cd34ab
+12desember
 12qwaszx
 13
 131313
@@ -73,12 +90,14 @@
 1a1a1a
 1a2b3c
 1a2b3c4d
+1a2b3c4d5e
 1q2w3e
 1q2w3e4r
 1q2w3e4r5t
 1qaz2wsx
 1qaz2wsx3edc
 1qazxsw2
+1z2x3c4v5b
 2000
 2001
 2002
@@ -112,16 +131,23 @@
 222222
 27
 2b2b2b
+2day
+2moro
+2night
 303030
 33
 3333
 333333
+333444555
 3344bb
 34cd34
 37
 3c3c3c
 4444
 444444
+444555666
+4me
+4u
 5555
 555555
 56ef56
@@ -129,10 +155,12 @@
 666
 6666
 666666
+666777888
 69
 777
 7777
 777777
+777888999
 888
 8888
 888888
@@ -152,15 +180,23 @@ Password123
 a123456
 a123456789
 a1a2a3
+a1a2a3a4a5
 a1b2c3
 a1b2c3d4
+a1b2c3d4e5
+aa11bb22
 aa1234
 aaaaaa1
 aabbcc
+ab12cd34
 ababab
+abc kopi
 abc123
 abc1234
 abc12345
+abc2025
+abc2026
+abc_kopi
 abcabc
 abcd123
 abcd1234
@@ -171,7 +207,10 @@ abcdefgh
 abcdefghi
 abigail
 abu
+abu abu
+abu_abu
 acer
+ade
 adi
 adidas
 adik
@@ -208,18 +247,88 @@ admin3
 admin30
 admin@
 admin@123
+admindemon
 administrator
 adminn
 adminpass
 adminpassword
 adminpassword123
 adminroot
+adminsite
+adminteam
+adminxcrk
+adware
 aerox
+aes256
+afk
+agan
 agus
+agus123
 agustus
+ah
+ahad
 air
+aircrack
 aji
 aku
+aku bagus
+aku bahagia
+aku bijak
+aku cantik
+aku disiplin
+aku ganteng
+aku ganteng banget
+aku ganteng sekali
+aku hebat
+aku imut
+aku jago
+aku keren
+aku kuat
+aku pintar
+aku sedih
+aku senang
+aku setia
+aku tangguh
+akuakubisa
+akuakuganteng
+akuasik
+akubagus
+akubahagia
+akubaik
+akuberani
+akubijak
+akucantik
+akucantik123
+akucantikbanget
+akuchendang
+akuciyus
+akudisiplin
+akuganteng
+akuganteng123
+akugantengbanget
+akugantengsekali
+akuhebat
+akuhebat123
+akuimut
+akujago
+akujago123
+akujujur
+akukeren
+akukeren123
+akukreatif
+akukuat
+akulucu
+akumahbisa
+akupintar
+akupintar123
+akuproduktif
+akurajin
+akusabar
+akusedih
+akusenang
+akusetia
+akusoleh
+akutangguh
 alexander
 alliance
 alliance!
@@ -231,6 +340,9 @@ amelia
 americano
 anaconda
 andi
+andi123
+andi2024
+andiwijaya
 andrew
 android
 android123
@@ -241,9 +353,17 @@ anggrek
 anggur
 angin
 angry
+anjay
+anjeng
 anjing
+anjir
 anon
 anon123
+anonim
+anonimindo
+anonimjawa
+anonimminang
+anonimsunda
 anonymous
 anonymous123
 anonymouse
@@ -251,10 +371,13 @@ anthony
 antivirus
 apel
 api
+apple
 april
 arch
+argon2
 aria
 arif
+asap
 asd123
 asdf
 asdf1234
@@ -263,6 +386,8 @@ asdff
 asdfgh
 asdfghjkl
 ashley
+asl
+assalamualaikum
 asus
 atas
 audi
@@ -276,91 +401,163 @@ aws
 aws123
 ayah
 ayam
+ayo kita bisa
+ayo semangat
+ayokbelajar
+ayokgas
+ayokitabisa
+ayokjalan
+ayokmain
+ayosemangat
 azure
 azure123
+b1b2b3b4b5
+b4
+babon
 backdoor
 backpacker
+badak
 badminton
 bahagia
 bakso
 baksojumbo
 baksotelor
 baksourat
+bakwan goreng
+bakwan_goreng
 bali
+bali2025
+bali2026
 bambang
 bandung
+bang
 bangkok
 bangun
 banten
 bapak
+baper
 barat
 barbara
+base64
 baseball
 baseball1
 baseball123
 bash
 basket
 basketball
+basoviral
 batagor
+batagorviral
 bawah
 bawang
 bayam
 bayu
 bb1234
 bbbbbb2
+bcrypt
+be kind
+be strong
+be yourself
+be_kind
+be_strong
+be_yourself
 beat
 beautiful
+beef_xss
 bekasi
 bekerja
 belajar
+belajar tanpa henti
+belajar_tanpa_henti
 belakang
 beliau
 believe
 believeme
+beng beng
+beng_beng
 benjamin
+berdoa dan berusaha
+berdoa_dan_berusaha
 berhasil
 berkata
 bermain
 bernyanyi
 berpikir
+berpikir sebelum bertindak
+berpikir_sebelum_bertindak
+bersyukur setiap hari
+bersyukur_setiap_hari
 bertanya
+bettercap
 betty
 bibi
 billion
+bind_shell
 bintang
 biru
+biru muda
+biru tua
+biru_muda
+biru_tua
 birulangit
+bisa bantu
+bisabantu
+bisadibantu
 bitbucket
 bitcoin
+blackarch
 blackhat
 blockchain
+bloodhound
+bluehat
 bluepill
 blueteam
 bmw
+bng
 boba
+boba viral
+boba_viral
 bogor
 bootloader
 borobudur
+bos
 boss
 boxing
 brave
+brb
 brian
 brilliant
+bro
+brokenauth
 bromo
 bronze
+broo
 brotherhood
+bruh
+bruteforce
+btw
+bu
 buaya
 buaya1
 bubble tea
+bucin
 budi
+budi123
+budi2024
+budisantoso
 bugbounty
 bulan
 bulutangkis
 bumi
 burgerking
+burp
+burpsuite
 burung
 byebye
+c1c2c3c4c5
 cabai
+cadbury
+caesar
 camera123
 camila
 capital
@@ -369,7 +566,12 @@ captain
 carol
 casio
 cc1234
+cc33dd44
 cccccc3
+censys
+cewek
+cewek cantik
+cewek kece
 champion
 chanel
 changeme
@@ -377,12 +579,17 @@ charles
 charlotte
 chevrolet
 chief
+chitato
 chloe
+choki choki
+choki_choki
 cicak
 cilok
+cilokviral
 cinta
 cirebon
 cireng
+cirengviral
 citizen
 civic
 clan
@@ -392,19 +599,27 @@ clan@
 clever
 cloud
 cloud123
+cobalt_strike
 cobra
 coca-cola
 cocacola
 coffee
+coffee bean
+coffee_bean
+cogan
+cogan keren
 coklat
 computer
 congratulations
 converse
 cool
 courage
+cowok
+cowok ganteng
 crack123
 cracker
 cracker123
+crackmapexec
 crew
 crew!
 crew1
@@ -412,17 +627,35 @@ crew@
 cricket
 crypto
 crypto123
+cryptography
 crystal
 csgo123
+csrf
+ctfplayer
+cui
 cumi
 cute
+cuy
 cve2024
+cyan
 cyber
 cyber123
+cyberarmy
+cyberforce
+cyberindo
+cyberjawa
+cyberminang
 cyberpunk
+cybersunda
+cyberteam
 cycling
 daihatsu
 danau
+danau sentani
+danau toba
+danau_sentani
+danau_toba
+dang
 dani
 daniel
 dark
@@ -432,6 +665,7 @@ darkweb
 david
 dd1234
 ddeeff
+ddos
 ddt
 ddt!
 ddt1
@@ -442,43 +676,96 @@ ddt@
 debian
 december
 dedi
+dedi123
 deepweb
 default
+dek
 delapan
 dell
 demak
 demo
+demo2025
+demo2026
 demon
 demon!
 demon1
 demon2
+demon2025
+demon2026
 demon@
+demonbugis
+demonjawa
+demonminang
+demonpassword
+demonsunda
+demonteam
+demonteam123
 denpasar
 depan
 depok
 desa
 desember
 desktop
+developerxcrk
 devil
+devxcrk
 dewi
+dewi123
+dewi2024
+dewilestari
+dexdemon
 dexter
+dexter demon
+dexter team
 dexter!
 dexter1
 dexter2
+dexter2025
+dexter2026
 dexter@
+dexterbugis
 dexterdemon
+dexterdemon2024
+dexterdemon2025
 dexterdemonteam
+dexterdemonteam2024
+dexterdemonteam2025
+dexterjawa
+dexterminang
+dexterpassword
+dextersunda
+dexterteam
+dexterteam123
 dia
+dia baik
+dia keren
+diabaik
+diakeren
 diamond
 diamond1
+dictionary
+dik
 dior
+diy
 docker
+docker compose
+docker hub
 docker123
+docker_compose
+docker_hub
+doi ganteng
+doiabaik
+doiacantik
+doiaganteng
+doiakeren
 dolfin
 dominos
 donald
 donna
+dont give up
+dont_give_up
 dorothy
+dos
 dota123
 dragon
 dragon!
@@ -492,24 +779,37 @@ dua
 duabelas
 dubai
 duku
+dunkin
 durian
+ecc
 edcrfv
 edward
+ee55ff66
+eh
 eko
 elang
 elang1
 elijah
 elizabeth
 ella
+emacs
 emas
 emerald
 emerald1
 emily
 emma
 empat
+empire
+empire_project
 enam
 engkau
 epic
+es jeruk
+es kopi
+es teh
+es_jeruk
+es_kopi
+es_teh
 esbuah
 esdoger
 esjeruk
@@ -518,62 +818,91 @@ espresso
 esteh
 ethan
 ethereum
+ettercap
 evelyn
 evil
 excellent
 exploit
 exploit123
+exploitdb
+ez
 fajar
 family
 family1
 fanta
 fantastic
 februari
+februari2024
+februari2025
 february
 fedora
 ferrari
+ferrero
 fifa123
+filezilla
 firewall
 firmware
 fitness
 fitri
+fitri123
 flutter123
 football
 football1
 football123
 ford
+forensics
 forgive
 fortnite
 fortuner
 fotografi
+founderdemon
+founderxcrk
+founderyongky
 frappe
 freedom
 freefire
 friday
+ftw
 futsal
+fyi
+fyp
+gabut
 gado
+gado gado
+gado_gado
 gagal
+gajah
+gaje
 galih
 gamer123
 gaming
 gampang
+gan
 gang
 garuda
 garuda1
+gasaja
+gasinaja
+gasken
+gaskeun
 gcp
 gcp123
 genius
 genshin123
 george
+gg
 ghost
 ghost123
 gili
+gili trawangan
+gili_trawangan
 gilitrawangan
 git
 git123
 gitar123
 github
 github123
+gitlab
 gitlab123
 god
 goddess
@@ -582,21 +911,31 @@ gold123
 golf
 good
 goodbye
+goodday
+goodjob
 goodmorning
 goodnight
+goodtime
+goodwork
 gorgeous
+gorila
+gr8
 great
 greyhat
 grind
+gtg
 gucci
 gudeg
 guest
 guest1
 guest123
 guest2024
+guest2025
+guest2026
 guest@123
 guestpass
 guestt
+guestuser
 guild
 gunung
 gym123
@@ -604,27 +943,66 @@ hack123
 hacker
 hacker!
 hacker123
+hackeraceh
+hackerbatak
+hackerbugis
+hackercantik
+hackerganteng
+hackerhebat
+hackerindo
+hackerjawa
+hackerkeren
+hackerminang
+hackersunda
 hackme
 hackthebox
 hadi
+hahaha
 handsome
 happy
 happybirthday
 harimau
 harimau1
 harper
+hashcat
+hashcrack
+hehehe
 hello
 hello!
 hello1
 hello123
 help
 hendra
+hendra123
 henry
 heri
+heri123
 hero
+hexencode
 hey123
 hi123
+hidup adalah perjuangan
+hidup adalah pilihan
+hidup indonesia
+hidup jokowi
+hidup merdeka
+hidup_adalah_perjuangan
+hidup_adalah_pilihan
+hidupindonesia
+hidupjokowi
+hidupku bahagia
+hidupku indah
+hidupkubahagia
+hidupkuindah
+hidupkusedih
+hidupmerdeka
+hiduprakyat
+hihihi
 hijau
+hijau muda
+hijau tua
+hijau_muda
+hijau_tua
 hijautua
 hijklmn
 hiking
@@ -638,10 +1016,12 @@ honor
 hope
 hotel
 hp
+htbplayer
 huawei
 hujan
 hustle
 hutan
+hydra
 hyper
 hyundai
 iamgod
@@ -651,32 +1031,69 @@ iamqueen
 iamthebest
 iamtheking
 ibu
+idk
+idor
+idsips
+ih
 ijnuhb
 ikan
 iloveu
 iloveyou
 iloveyou1
 iloveyou123
+iloveyou2025
+iloveyou2026
+imo
+impacket
+incidentresponse
 income
 indah
+indah123
 indomie
 indonesia
+indonesia raya
+indonesia2025
+indonesia2026
+indonesiaraya
 innova
+insomnia
 internet
 ios
 ios123
 iphone
 iqbal
 irfan
+irfan123
+iykwim
 jack
 jackson
 jacob
 jahe
 jakarta
+jakarta2025
+jakarta2026
 jalan
 jambu
 james
+jangan berhenti
+jangan lupa diri sendiri
+jangan lupa ibadah
+jangan lupa keluarga
+jangan lupa teman
+jangan menyerah
+jangan putus asa
+jangan ragu
+jangan_lupa_diri_sendiri
+jangan_lupa_ibadah
+jangan_lupa_keluarga
+jangan_lupa_teman
+janganberhenti
+janganmenyerah
+janganputusasa
+janganragu
 januari
+januari2024
+januari2025
 january
 jason
 java
@@ -684,29 +1101,37 @@ java123
 javascript
 javascript123
 jazz
+jco
 jeep
 jeffrey
 jennifer
+jerapah
 jeruk
 jessica
 jewel
 jogging
 jogja
 john
+johnripper
 joko
+joko123
 joseph
 joshua
 joy
 juli
+julid
 july
 jumat
 june
 juni
+juragan
 justice
 kadal
 kakak
 kakek
 kalian
+kaliarmy
+kalilinux
 kalimantan
 kambing
 kami
@@ -714,19 +1139,82 @@ kamis
 kampung
 kampus
 kamu
+kamu baik
+kamu cantik
+kamu cantik sekali
+kamu ciyus
+kamu ganteng
+kamu ganteng banget
+kamu harapan
+kamu hebat
+kamu hebat banget
+kamu hebat sekali
+kamu imut
+kamu istimewa
+kamu jago
+kamu keren
+kamu konsisten
+kamu lucu
+kamu mengagumkan
+kamu pintar
+kamu produktif
+kamu soleh
+kamubagus
+kamubaik
+kamucantik
+kamucantik123
+kamucantiksekali
+kamuchendang
+kamuganteng
+kamuganteng123
+kamugantengbanget
+kamuharapan
+kamuhebat
+kamuhebat123
+kamuhebatbanget
+kamuhebatsekali
+kamuimut
+kamuistimewa
+kamujago
+kamujago123
+kamujuar
+kamukeren
+kamukeren123
+kamukonsisten
+kamuluarbiasa
+kamulucu
+kamumahbisa
+kamumengagumkan
+kamupintar
+kamupintar123
+kamuproduktif
+kamusoleh
+kamuterbaik
 kanan
 kangen
 kangkung
 kantor
+kapalapi
 karen
+kawah ijo
+kawah_ijo
 kawahijo
 kawasaki
 kaya
+keep fighting
+keep going
+keep strong
+keep_fighting
+keep_going
+keep_strong
+kek
+kekw
 kelapa
 keluarga
 kencur
 kenneth
 kentang
+kepo
 kerja
 kernel
 kesatria
@@ -743,12 +1231,31 @@ king
 kingcobra
 kiri
 kita
+kita bisa
+kita keren banget
+kita pasti bisa
+kitabermanfaat
+kitabisa
+kitachendang
+kitahebat
+kitakeren
+kitakerenbanget
+kitakerensekali
+kitakerja keras
+kitakerjakeras
+kitapastibisa
+kitkat
 knight
 kobra
 kobra1
 komodo
 kopi
+kopi luwak
+kopi susu
+kopi_luwak
+kopi_susu
 kopihitam
+kopikap
 kopiluwak
 kopisusu
 kota
@@ -757,10 +1264,21 @@ ksatria
 kubernetes
 kucing
 kuda
+kudanil
 kuning
+kuning muda
+kuning tua
+kuning_muda
+kuning_tua
 kunyit
+kura kura
+kura_kura
 kurakura
+kuta bali
+kuta_bali
 kutabali
+labuan bajo
+labuan_bajo
 labuanbajo
 lamborghini
 langit
@@ -770,6 +1288,7 @@ lari123
 latte
 laut
 layla
+lays
 leader
 legend
 legendary
@@ -778,18 +1297,24 @@ letmein
 letmein!
 letmein1
 letmein123
+letmein2025
+letmein2026
 letmein@
 levi
+lfi
 liam
 lima
 lina
+lina123
 linda
 linux
 linux123
 lion
 lisa
 lkjhg
+lmao
 logan
+lol
 lombok
 lompat
 london
@@ -797,6 +1322,8 @@ lorong
 lotus
 love
 love123
+love2025
+love2026
 lovely
 lovely123
 loveme
@@ -807,10 +1334,14 @@ loveyou
 lucas
 lukman
 luna
+maaf ya
+maafya
 macan
 macan1
 macos
 macos123
+magenta
+mager
 main
 majapahit
 makan
@@ -818,6 +1349,7 @@ makassar
 malang
 mall
 malware
+malwareanalysis
 mama
 manager
 mandi
@@ -825,10 +1357,18 @@ mangga
 manggis
 march
 maret
+maret2024
+maret2025
 margaret
 mark
 markisa
+maroon
+martabak manis
+martabak telor
+martabak_manis
+martabak_telor
 mary
+mas
 mason
 master
 master!
@@ -846,8 +1386,11 @@ maulana
 mawar
 may
 maya
+maya123
 mazda
+mbak
 mcd
+md5crack
 medan
 meetagain
 mega
@@ -861,6 +1404,7 @@ melukis
 membaca
 membeli
 memberi
+memberteam
 meminta
 menangis
 menari
@@ -871,6 +1415,10 @@ menjawab
 menjual
 menulis
 merah
+merah muda
+merah tua
+merah_muda
+merah_tua
 merahmuda
 merahputih
 merapi
@@ -878,33 +1426,54 @@ merasa
 merbabu
 mercedes
 merdeka
+merdeka selamanya
+merdekaselamanya
 mereka
 merpati
 merpati1
+metasploit
+metasploit_framework
 mia
 michael
 michelle
 microphone
 mie
+mie sedap
+mie_sedap
 mieaceh
 mieayam
+mieayamviral
 miegoreng
 miekuah
 mila
 milkshake
 million
 milo
+mimikatz
 minecraft
 minggu
+minta bantuan
+minta tolong
+mintabantuan
+mintatolong
 minum
 mio
 miskin
+mitm
 mitsubishi
 mnbvcxz
 mobilelegend
 mochaccino
+moddemon
 modem
 moderator
+modteam
+modxcrk
+mohon bantuan
+mohon dibantu
+mohonbantuan
+mohondibantu
+mokondo
 monas
 monday
 money
@@ -917,72 +1486,118 @@ monkey
 monkey!
 monkey1
 monkey123
+monyet
 morpheus
 mouse
+msfconsole
+msfvenom
 mudah
 music123
 mysql
 mysql123
+mythic
 naga
 naga1
 nakamoto
 nancy
 nanda
+nano
 nasi
+nasi padang
+nasi uduk
 nasi_goreng
+nasi_padang
+nasi_uduk
 nasikuning
 nasipadang
 nasiuduk
+navy
+nc
 negeri
 nenek
 neo
 neo123
+netadmin
+netcat
 network
+never give up
+never surrender
+never_give_up
+never_surrender
 newyork
+ngrep
 nice
+nice work
+nice_work
 night
 night123
 nike
+nikto
 ninja
 ninja1
 ninja123
 nissan
+nmap
+nmapscan
 nmax
 noah
 node123
+normaluser
 november
 nurul
+nusa dua
+nusa_dua
 nusadua
 nusantara
+nusantara jaya
+nusantarajaya
+nvm
 october
 oka
+okeoke
 okmijn
 oktober
+olive
 oliver
 olivia
 om
 omega
+omg
 operator
 oppo
 opqrstu
 oracle
 oracle123
+orange
+orangutan
 oranye
+oreo
+osint
+otw
 owner
+ownerdemom
+ownerteam
+ownerxcrk
+owneryongky
 p@ssw0rd
 p@ssword
 pabrik
+packetstorm
 pahlawan
+pak
 palembang
 paman
 pancasila
 pandan
 pangeran
 pantai
+pantang menyerah
+pantangmenyerah
 panther
 papa
 papua
 paris
+parrotos
 pasar
 pass
 pass1
@@ -990,6 +1605,8 @@ pass12
 pass123
 pass1234
 pass12345
+pass2025
+pass2026
 passguest
 passmaster
 passsword
@@ -1019,9 +1636,13 @@ password4
 password5
 password@
 passwordadmin
+passwordcrack
 passwordd
+passworddemon
+passworddexter
 passwords
 passworduser
+passwordxcrk
 pasword
 patricia
 paul
@@ -1032,21 +1653,26 @@ pcx
 peace
 pearl
 pecel
+pecel lele
+pecel_lele
 pejuang
 pempek
 penelope
 pentest
 pentest123
 pentester
+pentestlab
 penyu
 pepaya
 pepsi
 perak
 perfect
+permisi
 perunggu
 petir
 phantom
 phantom123
+phishing
 photography
 php
 php123
@@ -1054,6 +1680,8 @@ phreak
 piano123
 pink
 pisang
+pisang goreng
+pisang_goreng
 pizzahut
 platinum
 please
@@ -1063,7 +1691,9 @@ popmie
 porsche
 postgres
 postgres123
+postman
 power
+powerview
 prada
 prambanan
 prasetyo
@@ -1072,21 +1702,28 @@ prince
 princess
 princess1
 princess123
+pringles
 printer
 profit
 proplayer
+psexec
 pubg123
 pulau
 puma
+pupy_rat
+purpleteam
 putih
 putra
 putri
+putri123
+putty
 pwd
 python
 python123
 q1q1q1
 q1w2e3
 q1w2e3r4
+q1w2e3r4t5
 q2q2q2
 q3q3q3
 qaz123
@@ -1095,6 +1732,8 @@ qazwsx123
 qazwsxedc
 qazxsw
 qazxsw123
+qemu
+quasar_rat
 queen
 qwaszx
 qwe123
@@ -1109,6 +1748,8 @@ qwerty123
 qwerty1234
 qwerty123456
 qwerty2
+qwerty2025
+qwerty2026
 qwerty3
 qwerty@
 qwertyuiop
@@ -1116,7 +1757,10 @@ qwertyy
 rabu
 rafi
 rahma
+rainbowtable
 raja
+raja ampat
+raja_ampat
 rajaampat
 rajawali
 rajawali1
@@ -1124,23 +1768,36 @@ rambutan
 ransomware
 ratu
 rawon
+rawonviral
+rce
 react123
 reading
 realme
+reaver
+redhat
 redpill
 redteam
 reebok
 remember
 renang
 rendang
+rendang asli
+rendang_asli
+responder
 restoran
+reverse_shell
+reverseengineering
+rfi
 rfvtgb
 richard
 rina
+rina123
 rindu
 rinjani
+rn
 robert
 roblox123
+rofl
 rolex
 ronald
 ronin
@@ -1156,16 +1813,21 @@ root13
 root2
 root2024
 root2025
+root2026
 root@
 root@123
 rootadmin
 rootkit
 rootpass
 roott
+rot13
 router
+rsa2048
+rubeus
 ruby
 ruby1
 rudi
+rudi123
 rugby
 rumah
 running
@@ -1175,7 +1837,17 @@ sad
 sahabat
 saint
 salak
+salam damai
+salam hangat
+salam kenal
+salam sejahtera
+salamdamai
+salamhangat
+salamkenal
+salamsejahtera
 salary
+sama sama
+samasama
 sambal
 sample
 samsung
@@ -1188,8 +1860,13 @@ sapphire
 sapphire1
 sarah
 sari
+sari123
 sarimi
 sate
+sate ayam
+sate kambing
+sate_ayam
+sate_kambing
 sateayam
 satekambing
 satesapi
@@ -1206,9 +1883,11 @@ sayang
 scanner
 scarlett
 scoopy
+scrypt
 sebastian
 sebelas
 seblak
+seblakviral
 secret
 security
 security123
@@ -1217,8 +1896,34 @@ seeyou
 seiko
 sejuta
 sekolah
+selamat istirahat
+selamat jalan
+selamat malam
+selamat pagi
+selamat siang
+selamat sore
+selamatistirahat
+selamatjalan
+selamatmalam
+selamatpagi
+selamatsiang
+selamatsore
 selasa
 selatan
+semangat bro
+semangat malam
+semangat pagi
+semangat siang
+semangat sore
+semangat terus
+semangatbro
+semangatkawan
+semangatmalam
+semangatpagi
+semangatsiang
+semangatsis
+semangatsore
+semangatterus
 semangka
 semarang
 sembilan
@@ -1226,6 +1931,7 @@ semeru
 semiliar
 senang
 senin
+sensitivedata
 seoul
 sepakbola
 september
@@ -1234,25 +1940,46 @@ serai
 seratus
 seribu
 server
+set_toolkit
 setriliun
+sha1crack
+sha256crack
 shadow
 shadow!
 shadow1
 shadow123
+sharphound
 shell
 shell123
+shellcode
+shodan
 shogun
+siem
 silver
 silver123
+silverqueen
 simpang
+simpanse
 singa
 singa1
 singapore
+singkong goreng
+singkong_goreng
 siomay
+sipsip
+sis
 sisterhood
 siti
+siti123
+siti2024
+sitinurhaliza
+sliver
 smart
+smishing
+soc
+socat
 soccer
+socialengineering
 sofia
 sopbuntut
 sophia
@@ -1260,24 +1987,43 @@ sopiga
 sopkambing
 sorry
 soto
+soto betawi
+soto_betawi
 sotobanjar
 sotobetawi
 sotolamongan
+sotoviral
+spearphishing
 sprite
 spyware
+sqlinjection
+sqlmap
 squad
 squad!
 squad1
 squad@
 sriwijaya
+ssh client
+ssh_client
+ssrf
 staff
+staffteam
 starbucks
+stay focused
+stay positive
+stay safe
+stay_focused
+stay_positive
+stay_safe
+steganografi
 steven
 strength
 stroberi
 strong
+sublime
 success
 sudo
+suhu
 sukses
 sulawesi
 sulit
@@ -1289,6 +2035,8 @@ sunshine
 sunshine1
 sunshine123
 super
+superadmin
+supermi
 superuser
 support
 surabaya
@@ -1301,24 +2049,56 @@ swimming
 sydney
 sysadmin
 tahu
+tahu goreng
+tahu_goreng
 taipei
+tanah toraja
+tanah_toraja
 tanatoraja
 tangerang
 tante
+taro
 taufik
+tbh
+tcpdump
 team
 teh
+teh botol
+teh tarik
+teh_botol
+teh_tarik
 tehbotol
+tehgelas
 tehmanis
 tehpanas
+tehpucuk
+tehsisri
+telnet
 telur
 teman
+tembaga
 tempe
+tempe goreng
+tempe_goreng
 tengah
 tennis
+terang bulan
+terang_bulan
 teratai
 terbang
+terima kasih
+terimakasih
 tertawa
+terus belajar
+terus berkembang
+terus jalan
+terus maju
+terus semangat
+terusbelajar
+terusberkembang
+terusjalan
+terusmaju
+terussemangat
 tesla
 test
 test!
@@ -1337,9 +2117,18 @@ test@123
 testme
 testpass
 testt
+tetap fokus
+tetap kuat
+tetap sabar
+tetap semangat
+tetapfokus
+tetapkuat
+tetapsabar
+tetapsemangat
 tgbyhn
 thanks
 thankyou
+thmplayer
 thomas
 thursday
 tidur
@@ -1351,6 +2140,8 @@ timur
 tokek
 toko
 tokyo
+tolong bantu
+tolongbantu
 tomat
 toor
 tor
@@ -1370,9 +2161,16 @@ trustno12
 truth
 tryhackme
 tryme
+tshark
+ttyl
 tuesday
 tujuh
+tumpak sewu
+tumpak_sewu
 tumpaksewu
+turquoise
+ubi goreng
+ubi_goreng
 ubud
 ubuntu
 ubuntu123
@@ -1382,6 +2180,7 @@ ular
 ular1
 ultra
 ungu
+urlencode
 user
 user1
 user12
@@ -1397,26 +2196,45 @@ valorant
 vario
 versace
 victoria
+vigenere
+vim
 viper
 viper1
+virtualbox
+virus
+vishing
 vivo
+vmware
 voli
 volleyball
+vscode
 vwxyz12
+waalaikumsalam
+wadidaw
+waduh
+wah
 wahyu
+wakawai
+wakwo
 wallet
 wallet123
 wanderlust
+wang
 warrior
 warung
+wce
 webcam
 wednesday
 welcome
 welcome!
 welcome1
 welcome123
+welcome2025
+welcome2026
 welcome@123
 welcomeback
+well done
+well_done
 whatsup
 whitehat
 whiterabbit
@@ -1427,40 +2245,85 @@ windows10
 windows11
 winner
 winner123
+winscp
+wireshark
 wish
+wkwkwk
 wolf
 wonderful
+wordlist
 world
 world!
 world123
+worm
 wortel
+wow
+wp
 writing
 wsxedc
+wtf
+wth
 wulan
+wulan123
 x1x2x3
 xcrk
+xcrk dexter
 xcrk!
 xcrk1
 xcrk123
 xcrk2024
 xcrk2025
+xcrk2026
 xcrk@
+xcrkbugis
+xcrkdemon
+xcrkjawa
+xcrkminang
+xcrkpassword
+xcrksunda
+xcrkteam
+xcrkteam123
 xenia
 xiaomi
+xor
+xorcode
+xssattack
+xxe
 y1y2y3
 yamaha
+yayaya
 yhnujm
 yoga
 yoga123
 yogyakarta
+yoiyoi
 yongky
+yongky dexter
 yongky!
 yongky1
+yongky2025
+yongky2026
 yongky@
+yongkybugis
+yongkydemon
+yongkyjawa
+yongkyminang
+yongkysunda
+yongkyteam
+you are amazing
+you are great
+you can do it
+you_are_amazing
+you_are_great
+you_can_do_it
+ytta
 yudi
+z1x2c3v4b5
 z1z2z3
 zaki
+zap
 zaq12wsx
+zebra
 zeroday
 zxc123
 zxcvbn

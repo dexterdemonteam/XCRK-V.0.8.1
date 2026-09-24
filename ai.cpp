@@ -5,6 +5,7 @@
 #include <algorithm>
 #include <cctype>
 #include <cstdlib>
+#include <ctime>
 
 struct HashEntry {
     std::string hash;
@@ -26,6 +27,7 @@ struct Analisis {
 bool otakLoad(const std::string& path);
 const std::vector<std::string>& otakGetTips();
 const std::vector<HashEntry>& otakGetHashes();
+const std::vector<std::string>& otakChatReplies(const std::string& key);
 Analisis logikaAnalisis(const std::string& hash);
 
 static std::string trimStr(const std::string& s) {
@@ -43,34 +45,47 @@ static std::string toLowerStr(const std::string& s) {
     return r;
 }
 
+static std::string pickRandom(const std::vector<std::string>& v, const std::string& fallback) {
+    if (v.empty()) return fallback;
+    return v[std::rand() % v.size()];
+}
+
+static bool isHashLike(const std::string& s) {
+    if (s.size() != 32 && s.size() != 40 && s.size() != 64 && s.size() != 128) return false;
+    for (char c : s) if (!std::isxdigit((unsigned char)c)) return false;
+    return true;
+}
+
+static bool containsAny(const std::string& s, std::initializer_list<const char*> keys) {
+    for (auto k : keys) {
+        if (s.find(k) != std::string::npos) return true;
+    }
+    return false;
+}
+
 static void aiBanner() {
     std::cout << "\n  " << RED << BOLD << "hash ai chatbot" << RESET
-              << GRAY << " · offline · v1.0\n" << RESET;
+              << GRAY << " · offline · v1.3\n" << RESET;
     std::cout << "  " << GRAY
-              << "ketik 'help' buat bantuan, 'exit' buat keluar\n\n" << RESET;
+              << "bisa diajak ngobrol & analisa hash. ketik 'help'\n\n" << RESET;
 }
 
 static void aiHelp() {
     std::cout << "\n  " << GREEN << "perintah:" << RESET << "\n";
-    std::cout << "    " << GRAY << "·" << RESET << " ketik hash langsung       "
-              << GRAY << "→ analisa hash\n" << RESET;
-    std::cout << "    " << GRAY << "·" << RESET << " tips                       "
-              << GRAY << "→ tampilkan tips\n" << RESET;
-    std::cout << "    " << GRAY << "·" << RESET << " dataset                    "
-              << GRAY << "→ info dataset\n" << RESET;
-    std::cout << "    " << GRAY << "·" << RESET << " help                       "
-              << GRAY << "→ bantuan ini\n" << RESET;
-    std::cout << "    " << GRAY << "·" << RESET << " clear                      "
-              << GRAY << "→ bersihin layar\n" << RESET;
-    std::cout << "    " << GRAY << "·" << RESET << " exit                       "
-              << GRAY << "→ keluar\n\n" << RESET;
+    std::cout << "    " << GRAY << "·" << RESET << " ketik hash           → analisa hash\n";
+    std::cout << "    " << GRAY << "·" << RESET << " halo / hai / assalamualaikum\n";
+    std::cout << "    " << GRAY << "·" << RESET << " siapa kamu / siapa pembuatmu\n";
+    std::cout << "    " << GRAY << "·" << RESET << " cara pakai / fitur\n";
+    std::cout << "    " << GRAY << "·" << RESET << " kenapa / knp / ada apa\n";
+    std::cout << "    " << GRAY << "·" << RESET << " tips / dataset\n";
+    std::cout << "    " << GRAY << "·" << RESET << " clear / exit\n\n" << RESET;
 }
 
 static void aiTips() {
     const auto& tips = otakGetTips();
     std::cout << "\n  " << RED << "tips dari AI:" << RESET << "\n";
     if (tips.empty()) {
-        std::cout << "    " << GRAY << "belum ada tips di dataset.json\n" << RESET;
+        std::cout << "    " << GRAY << "belum ada tips\n" << RESET;
         return;
     }
     for (const auto& t : tips) {
@@ -123,13 +138,18 @@ static void aiAnalisa(const std::string& hash) {
                   << RED << "gak ada di dataset" << RESET << "\n";
         std::cout << "  " << GRAY << "saran    " << RESET
                   << a.saran << "\n";
+        std::cout << "\n  " << GRAY
+                  << pickRandom(otakChatReplies("hash_tidak_ditemukan"),
+                                "coba fitur lain di menu utama")
+                  << RESET << "\n";
     }
     std::cout << "\n";
 }
 
 void runAIChat() {
-    bool ok = otakLoad("dataset.json");
+    std::srand((unsigned)std::time(nullptr));
 
+    bool ok = otakLoad("dataset.json");
     if (!ok) {
         const char* home = std::getenv("HOME");
         if (home) {
@@ -141,9 +161,7 @@ void runAIChat() {
     }
 
     if (!ok) {
-        std::cout << "\n  " << RED << "[!] dataset.json gak ketemu." << RESET << "\n";
-        std::cout << "  " << GRAY << "pastikan file dataset.json ada di folder ini\n";
-        std::cout << "  atau di ~/xcrk/dataset.json\n\n" << RESET;
+        std::cout << "\n  " << RED << "[!] dataset.json gak ketemu." << RESET << "\n\n";
         return;
     }
 
@@ -160,7 +178,9 @@ void runAIChat() {
         std::string low = toLowerStr(in);
 
         if (low == "exit" || low == "quit" || low == "q" || low == "keluar") {
-            std::cout << "\n  " << GREEN << "bye." << RESET << "\n\n";
+            std::cout << "\n  " << GREEN
+                      << pickRandom(otakChatReplies("bye"), "bye.") << RESET
+                      << "\n\n";
             break;
         }
         if (low == "help" || low == "?" || low == "bantuan") {
@@ -181,6 +201,139 @@ void runAIChat() {
             continue;
         }
 
-        aiAnalisa(in);
+        if (containsAny(low, {"assalamualaikum", "assalamu", "salam"})) {
+            std::cout << "\n  " << GREEN
+                      << pickRandom(otakChatReplies("assalamualaikum"),
+                                    "waalaikumsalam") << RESET << "\n\n";
+            continue;
+        }
+        if (containsAny(low, {"selamat pagi", "pagi"})) {
+            std::cout << "\n  " << GREEN
+                      << pickRandom(otakChatReplies("pagi"), "pagi") << RESET << "\n\n";
+            continue;
+        }
+        if (containsAny(low, {"selamat siang", "siang"})) {
+            std::cout << "\n  " << GREEN
+                      << pickRandom(otakChatReplies("siang"), "siang") << RESET << "\n\n";
+            continue;
+        }
+        if (containsAny(low, {"selamat sore", "sore"})) {
+            std::cout << "\n  " << GREEN
+                      << pickRandom(otakChatReplies("sore"), "sore") << RESET << "\n\n";
+            continue;
+        }
+        if (containsAny(low, {"selamat malam", "malam"})) {
+            std::cout << "\n  " << GREEN
+                      << pickRandom(otakChatReplies("malam"), "malam") << RESET << "\n\n";
+            continue;
+        }
+        if (containsAny(low, {"knp", "kenapa", "mengapa", "ada apa"})) {
+            std::cout << "\n  " << GREEN
+                      << pickRandom(otakChatReplies("knp"), "kenapa ya") << RESET << "\n\n";
+            continue;
+        }
+        if (containsAny(low, {"maaf", "sorry"})) {
+            std::cout << "\n  " << GREEN
+                      << pickRandom(otakChatReplies("maaf"), "gapapa") << RESET << "\n\n";
+            continue;
+        }
+        if (containsAny(low, {"tolong", "bantu"})) {
+            std::cout << "\n  " << GREEN
+                      << pickRandom(otakChatReplies("tolong"), "siap") << RESET << "\n\n";
+            continue;
+        }
+        if (containsAny(low, {"bingung", "gak ngerti", "gak paham"})) {
+            std::cout << "\n  " << GREEN
+                      << pickRandom(otakChatReplies("bingung"), "coba 'help'") << RESET << "\n\n";
+            continue;
+        }
+        if (containsAny(low, {"mantap", "keren", "bagus", "nice"})) {
+            std::cout << "\n  " << GREEN
+                      << pickRandom(otakChatReplies("mantap"), "sip") << RESET << "\n\n";
+            continue;
+        }
+        if (containsAny(low, {"capek", "lelah", "tired"})) {
+            std::cout << "\n  " << GREEN
+                      << pickRandom(otakChatReplies("capek"), "istirahat") << RESET << "\n\n";
+            continue;
+        }
+        if (containsAny(low, {"senang", "happy", "bahagia"})) {
+            std::cout << "\n  " << GREEN
+                      << pickRandom(otakChatReplies("senang"), "sip") << RESET << "\n\n";
+            continue;
+        }
+        if (containsAny(low, {"sedih", "galau"})) {
+            std::cout << "\n  " << GREEN
+                      << pickRandom(otakChatReplies("sedih"), "santai") << RESET << "\n\n";
+            continue;
+        }
+        if (low == "iya" || low == "ya" || low == "yoi" || low == "yup") {
+            std::cout << "\n  " << GREEN
+                      << pickRandom(otakChatReplies("iya"), "oke") << RESET << "\n\n";
+            continue;
+        }
+        if (low == "tidak" || low == "tdk" || low == "no" || low == "engga") {
+            std::cout << "\n  " << GREEN
+                      << pickRandom(otakChatReplies("tidak"), "oke") << RESET << "\n\n";
+            continue;
+        }
+        if (containsAny(low, {"siapa kamu", "kamu siapa", "nama kamu"})) {
+            std::cout << "\n  " << GREEN
+                      << pickRandom(otakChatReplies("siapa_kamu"), "gue xcrk-ai") << RESET
+                      << "\n\n";
+            continue;
+        }
+        if (containsAny(low, {"pembuat", "yang buat", "owner", "creator"})) {
+            std::cout << "\n  " << GREEN
+                      << pickRandom(otakChatReplies("pembuat"), "dexter demon team") << RESET
+                      << "\n\n";
+            continue;
+        }
+        if (containsAny(low, {"cara pakai", "gimana pakai", "tutorial"})) {
+            std::cout << "\n  " << GREEN
+                      << pickRandom(otakChatReplies("cara_pakai"), "ketik hash") << RESET
+                      << "\n\n";
+            continue;
+        }
+        if (containsAny(low, {"fitur", "bisa apa"})) {
+            std::cout << "\n  " << GREEN
+                      << pickRandom(otakChatReplies("fitur"), "analisa hash") << RESET
+                      << "\n\n";
+            continue;
+        }
+        if (containsAny(low, {"makasih", "terima kasih", "thanks", "thx", "tq"})) {
+            std::cout << "\n  " << GREEN
+                      << pickRandom(otakChatReplies("terima_kasih"), "siap") << RESET
+                      << "\n\n";
+            continue;
+        }
+        if (containsAny(low, {"halo", "hai", "hi", "hello", "hei", "hey", "woi", "woy"})) {
+            std::cout << "\n  " << GREEN
+                      << pickRandom(otakChatReplies("salam"), "halo") << RESET
+                      << "\n\n";
+            continue;
+        }
+        if (containsAny(low, {"aku", "saya"})) {
+            std::cout << "\n  " << GREEN
+                      << pickRandom(otakChatReplies("aku"), "aku siap bantu") << RESET
+                      << "\n\n";
+            continue;
+        }
+        if (containsAny(low, {"kamu", "anda", "sampean"})) {
+            std::cout << "\n  " << GREEN
+                      << pickRandom(otakChatReplies("kamu"), "kamu tinggal ketik") << RESET
+                      << "\n\n";
+            continue;
+        }
+
+        if (isHashLike(in)) {
+            aiAnalisa(in);
+            continue;
+        }
+
+        std::cout << "\n  " << GRAY
+                  << pickRandom(otakChatReplies("unknown"),
+                                "gue gak ngerti. ketik 'help'") << RESET
+                  << "\n\n";
     }
 }
